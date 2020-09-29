@@ -1,0 +1,113 @@
+* {
+margin: 0;
+padding: 0;
+font-size: 100%;
+font-family: 'Recursive', sans-serif;
+font-weight: normal;
+box-sizing: border-box;
+border:none;
+outline: none;
+}
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+h2{
+	font-size: 1.5em;
+	color: #333;
+}
+
+p{
+	font-size: 1em;
+	color: #777;
+}
+.cabeça{
+	width: 100%;
+	float: left;
+	padding: 50px 8%;
+	background-color:#111; 
+}
+
+.logo a{
+   width: 236px;
+   height: 10px;
+   float: left;
+   background: url(../img/loggo.png) no-repeat;
+   font-size: 0px;
+}
+
+.cabeça form{
+	width: 30%;
+	float: right;
+}
+
+.cabeça input[type="text"]{
+    width: 85%;
+    float: left;
+    padding: 15px 10px;
+    border-radius: 5px 0 0 5px;
+}
+
+.cabeça button{
+	width: 15%;
+	float: right;
+	padding: 15px 10px;
+	background-color:#fff;
+	color: #EEC900;
+	cursor: pointer;
+	border-radius: 0 5px 5px 0;
+}
+
+.menu{
+	width: 100%;
+	float: left;
+	background-color: #313131;
+	padding: 18px 8%;
+}
+
+.menu li {
+	float: left;
+}
+
+.menu li a{
+	color: #fff;
+	margin-right: 25px;
+}
+
+.menu li a:hover{
+	color: #EEC900;
+}
+
+/*Social Icons*/
+.social-icons{
+	float: right;
+}
+
+.social-icons a{
+	float: left;
+	color: #fff;
+	margin-left: 12px;
+}
+
+.btn-car:hover{
+	color: #EEC900;
+}
+
+.btn-user:hover{
+	color: #EEC900;
+}
+section{
+	position: relative;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+section .container{
+
+}
